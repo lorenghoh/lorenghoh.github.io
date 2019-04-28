@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    {{ partial "lang.html" . }}
+<head>
+    {{ partial "head.html" . }}
+</head>
+
+<body>
+    {{ partial "navigation.html" . }}
+    
+    <div class="wrapper">
+        {{ partial "sidebar.html" . }}
+        
+        <div class="main-wrapper">
+            {{ if .Site.Params.summary.enable }}
+            {{ partial "summary.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.projects.enable }}
+            {{ partial "projects.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.publications.enable }}
+            {{ partial "publications.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.talks.enable }}
+            {{ partial "talks.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.skills.enable }}
+            {{ partial "skills.html" . }}
+            {{ end }}
+        </div><!--//main-body-->
+    </div>
+
+	{{ partial "footer.html" . }}
+
+    {{ partial "scripts.html" . }}
+    <div class="scroller"><a href="#" id="to_top" style="display: none"><span></span></a></div>
+</body>
+</html>

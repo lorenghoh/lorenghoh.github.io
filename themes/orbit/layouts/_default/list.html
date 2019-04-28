@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    {{ partial "lang.html" . }}
+<head>
+    {{ partial "head.html" . }}
+</head>
+
+<body>
+  {{ partial "navigation.html" . }}
+  
+    <div class="wrapper">
+
+    {{ partial "sidebar.html" . }}
+
+    <div class="main-wrapper">
+        
+    <section id="main">
+
+      {{ range .Site.Pages }}
+        <h1 id="title">{{ .Title }}</h1>
+        <div>
+          <article id="content">
+             {{ .Content }}
+          </article>
+      </div>
+      {{ end }}
+      
+    </section>
+
+    </div><!--//main-body-->
+    </div>
+
+    {{ partial "footer.html" . }}
+
+    {{ partial "scripts.html" . }}
+</body>
+</html>

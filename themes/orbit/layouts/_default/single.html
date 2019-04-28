@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    {{ partial "lang.html" . }}
+<head>
+    {{ partial "head.html" . }}
+</head>
+
+<body>
+  {{ partial "navigation.html" . }}
+  
+    <div class="wrapper">
+
+    {{ partial "sidebar.html" . }}
+
+    <div class="main-wrapper">
+
+    <section id="main-body">
+      <div class="section-title">{{ .Title }}</div>
+      <div id="single-author">{{ .Params.author }}</div>
+      <div id="single-date">{{ .Params.pub_date }}</div>
+      <div>
+        <article class="summary">
+           {{ .Content }}
+        </article>
+      </div>
+    </section>
+
+    </div><!--//main-body-->
+    </div>
+
+    {{ partial "footer.html" . }}
+
+    {{ partial "scripts.html" . }}
+</body>
+</html>

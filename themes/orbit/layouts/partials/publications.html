@@ -1,0 +1,16 @@
+            <section class="section publications-section">
+                <h2 class="section-title"><i class="fa {{ .Site.Params.publications.icon }}"></i>{{ i18n "publications" }}</h2>
+
+				{{ range .Site.Params.publications.list }}
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <div class="pub-title"><a href="{{ .url }}">{{ .title }}</a></div>
+                        </div><!--//upper-row-->
+                        <span class="time">{{ .dates }}</span>
+                        <span class="journal">{{ .journal }}</span>
+                        <span class="publisher">{{ .publisher }}</span>
+                    </div><!--//meta-->
+                </div><!--//item-->
+				{{ end }}
+            </section><!--//section-->
