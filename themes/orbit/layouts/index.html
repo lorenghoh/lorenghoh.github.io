@@ -14,6 +14,10 @@
                 {{ partial "summary.html" . }}
                 {{ end }}
 
+                {{ if .Site.Params.education.enable }}
+                {{ partial "education.html" . }}
+                {{ end }}
+
                 {{ if .Site.Params.projects.enable }}
                 {{ partial "projects.html" . }}
                 {{ end }}
@@ -24,6 +28,10 @@
 
                 {{ if .Site.Params.talks.enable }}
                 {{ partial "talks.html" . }}
+                {{ end }}
+
+                {{ if .Site.Params.teaching.enable }}
+                {{ partial "teaching.html" . }}
                 {{ end }}
 
                 {{ if .Site.Params.skills.enable }}

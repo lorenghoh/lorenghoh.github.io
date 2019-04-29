@@ -14,3 +14,5 @@
   translation: Skills & Proficiency
 - id: summary
   translation: Profile
+- id: teaching
+  translation: Teaching

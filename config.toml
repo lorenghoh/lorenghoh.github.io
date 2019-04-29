@@ -52,29 +52,9 @@ title = "lorenghoh.github.io"
 
 [[params.contact.list]]
 class = "linkedin"
-icon = "fa-linkedin"
+icon = "fa-linkedin-square"
 url = "//linkedin.com/in/lorenghoh"
 title = "linkedin.com/in/lorenghoh"
-
-# Education section
-# [params.education]
-# enable = true
-# title = "Education"
-
-# [[params.education.list]]
-# degree = "Combined Honours in Computer Science and Physics"
-# college = "University of British Columbia"
-# dates = "2008-2012"
-
-# [[params.education.list]]
-# degree = "MSc in Atmospheric Sciences"
-# college = "McGill University"
-# dates = "2012 - 2014"
-
-# [[params.education.list]]
-# degree = "PhD in Atmospheric Sciences"
-# college = "University of British Columbia"
-# dates = "2014 - now"
 
 # Interests section
 # [params.interests]
@@ -99,19 +79,6 @@ title = "linkedin.com/in/lorenghoh"
 # [[params.interests.list]]
 # interest = "Logic"
 
-# # Languages section
-# [params.language]
-# enable = false
-# title = "Languages"
-
-# [[params.language.list]]
-# language = "Korean"
-# level = "Native"
-
-# [[params.language.list]]
-# language = "English"
-# level = "Professional"
-
 # Main matter
 # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
 
@@ -124,8 +91,23 @@ title = "Profile"
 # Education section
 [params.education]
 enable = true
-icon = "fa-user"
+icon = "fa-graduation-cap"
 title = "Education"
+
+[[params.education.list]]
+degree = "Combined Honours in Computer Science and Physics"
+college = "University of British Columbia"
+dates = "2008-2012"
+
+[[params.education.list]]
+degree = "MSc in Atmospheric Sciences"
+college = "McGill University"
+dates = "2012 - 2014"
+
+[[params.education.list]]
+degree = "PhD in Atmospheric Sciences"
+college = "University of British Columbia"
+dates = "2014 - now"
 
 # Projects section
 [params.projects]
@@ -230,6 +212,12 @@ url = "https://ams.confex.com/ams/15CLOUD15ATRAD/webprogram/Paper347701.html"
 date = "2018"
 location = "15th Conference on Cloud Physics"
 type = "Conference"
+
+# Teaching section
+[params.teaching]
+enable = true
+icon = "fa-university"
+title = "Teaching"
 
 # Skills section
 [params.skills]
