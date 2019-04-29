@@ -5,30 +5,30 @@
 </head>
 
 <body>
-  {{ partial "navigation.html" . }}
+  <div class="wrapper">
+    <div class="container">
+      {{ partial "sidebar.html" . }}
   
-    <div class="wrapper">
-
-    {{ partial "sidebar.html" . }}
-
-    <div class="main-wrapper">
-
-    <section id="main-body">
-      <div class="section-title">{{ .Title }}</div>
-      <div id="single-author">{{ .Params.author }}</div>
-      <div id="single-date">{{ .Params.pub_date }}</div>
-      <div>
-        <article class="summary">
-           {{ .Content }}
-        </article>
-      </div>
-    </section>
-
-    </div><!--//main-body-->
+      <div class="main-wrapper">
+        <section id="main-body">
+          <div class="section-title">{{ .Title }}</div>
+          <div id="single-author">{{ .Params.author }}</div>
+          <div id="single-date">{{ .Params.pub_date }}</div>
+          <div>
+            <article class="summary">
+              {{ .Content }}
+            </article>
+          </div>
+        </section>
+      </div><!--//main-body-->
     </div>
+  </div>
 
     {{ partial "footer.html" . }}
-
     {{ partial "scripts.html" . }}
+
+    <div class="scroller">
+      <a href="#" id="to_top" style="display: none"></a>
+    </div>
 </body>
 </html>
