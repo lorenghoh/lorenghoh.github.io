@@ -28,21 +28,17 @@
 </head>
 
 <body>
-  <div class="nav-bar-container">
-    <div class="nav-bar">
-        <span class="home"><a href="#home">home</a></span>
-        <a href="#about">about</a>
-        <a href="#cv">CV</a>
-    </div>
-</div>
-  
-    <div class="wrapper">
-
-            <div class="sidebar-wrapper">
+  <div class="wrapper">
+    <div class="container">
+              <div class="sidebar-wrapper">
 
 		            <div class="profile-container">
-                <a href="#home"><img class="profile img-circle" src="https://lorenghoh.github.io/assets/images/profile.png" alt="" /></a>
-                <h1 class="name"><a href="#home">Loren Oh</a></h1>
+                <a href="https://lorenghoh.github.io/">
+                    <img class="profile img-circle" src="https://lorenghoh.github.io/assets/images/profile.png" alt="" />
+                </a>
+                <h1 class="name">
+                    <a href="https://lorenghoh.github.io/">Loren Oh</a>
+                </h1>
                 <h3 class="tagline">Computational Physicist</h3>
             </div>
 
@@ -73,16 +69,15 @@
 
         </div>
 
-
-    <div class="main-wrapper">
-
-    <section id="main-body">
-      <div class="section-title">The Role of Moist Shells in Determining the Dilution of Cumulus Clouds</div>
-      <div id="single-author">Gun Ho Oh and Phil Austin</div>
-      <div id="single-date"></div>
-      <div>
-        <article class="summary">
-           <p>One of the fundamental problems in accurately representing the effect of moist convection in a large-scale atmospheric model is estimating dilution of cumulus clouds due to entrainment and detrainment. Motivated by Hannah (JAS, 2017), we quantify the rate of dilution based on the individual cloud entrainment and detrainment rates and investigate the role of the moist shell in determining the properties of entrained and detrained air. We use the method introduced by Dawe and Austin (MWR, 2011b) to directly calculate the rate of entrainment and detrainment in shallow and deep cumulus cloud cores using System for Atmospheric Modeling (SAM; Khairoutdinov and Randall, JAS, 2003). We examine six different cases ranging from a large-scale simulation of deep tropical marine convection with a resolution of 50 m over a 90 km x 90 km x 25 km domain, to five different boundary-layer simulations at 25 meter resolutions over land and water.</p>
+  
+      <div class="main-wrapper">
+        <section id="main-body">
+          <div class="section-title">The Role of Moist Shells in Determining the Dilution of Cumulus Clouds</div>
+          <div id="single-author">Gun Ho Oh and Phil Austin</div>
+          <div id="single-date"></div>
+          <div>
+            <article class="summary">
+              <p>One of the fundamental problems in accurately representing the effect of moist convection in a large-scale atmospheric model is estimating dilution of cumulus clouds due to entrainment and detrainment. Motivated by Hannah (JAS, 2017), we quantify the rate of dilution based on the individual cloud entrainment and detrainment rates and investigate the role of the moist shell in determining the properties of entrained and detrained air. We use the method introduced by Dawe and Austin (MWR, 2011b) to directly calculate the rate of entrainment and detrainment in shallow and deep cumulus cloud cores using System for Atmospheric Modeling (SAM; Khairoutdinov and Randall, JAS, 2003). We examine six different cases ranging from a large-scale simulation of deep tropical marine convection with a resolution of 50 m over a 90 km x 90 km x 25 km domain, to five different boundary-layer simulations at 25 meter resolutions over land and water.</p>
 
 <p>As reported previously by Hannah (JAS, 2017), we confirm the observation that the entrainment and detrainment rates calculated for the individual clouds do not correlate well with the corresponding dilution rates; that is, the rate of dilution due to entrainment cannot accurately be determined by the rate of entrainment for a cloud core due to the existence of a moist shell that mediates the turbulent mixing processes. Using these techniques, we can determine how the cloud cores are diluted and concentrated through entrainment and detrainment, and compare the dilution timescales with the traditional bulk-plume estimates of entrainment and detrainment rates. Using the shell correction method to faithfully translate the direct entrainment and detrainment rates to bulk-plume estimates, we show that the total dilution rate of the cloud core is equivalent to the traditionally-formulated entrainment rate, although the definition of entrainment in this traditional sense, however practical, remains unphysical. Based on these calculations, we find that although the entrainment rate (and dilution) of a cloud core decreases with increasing cloud size, it is not proportional to the inverse of the cloud radius, as assumed by many parameterization schemes.</p>
 
@@ -90,12 +85,12 @@
 
 <p>We further examine the implications of the moist shell for turbulent momentum transport during moist convection in a large-scale atmosphere. Our direct calculations confirm other work (e.g. Jonker et al., GRL, 2008) that a simple mass-flux approximation of decomposing the atmosphere into ascending clouds and subsiding environment is unable to estimate the turbulent momentum transport by convective clouds.</p>
 
-        </article>
+            </article>
+          </div>
+        </section>
       </div>
-    </section>
-
     </div>
-    </div>
+  </div>
 
     <footer class="footer">
     <div class="text-center">
@@ -105,11 +100,14 @@
     </div>
 </footer>
 
-
                   
     <script type="text/javascript" src="https://lorenghoh.github.io/assets/plugins/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="https://lorenghoh.github.io/assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
     
     <script type="text/javascript" src="https://lorenghoh.github.io/assets/js/main.js"></script> 
+
+    <div class="scroller">
+      <a href="#" id="to_top" style="display: none"></a>
+    </div>
 </body>
 </html>

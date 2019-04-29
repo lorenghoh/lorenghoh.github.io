@@ -46,20 +46,6 @@ p {
 .wrapper {
   width:100%;
 }
-.nav-bar-container {
-  max-width: 1000px;
-  margin: auto;
-  height: 30px;
-}
-.nav-bar {
-  padding-top: 4px;
-  /* padding-bottom: 4px; */
-}
-.nav-bar a{
-  font-size: 16px;
-  color: #10171a;
-  margin: 16px;
-}
 .container{
   /* -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
