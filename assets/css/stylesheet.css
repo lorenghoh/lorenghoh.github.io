@@ -10,8 +10,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #545E6C;
-  background: #f8f8f8;
-  font-size: 16px;
+  /* background-color: #f8f8f8; */
+  font-size: 15px;
   font-weight: 400;
   padding: 30px;
   -webkit-font-smoothing: antialiased;
@@ -31,6 +31,7 @@ a {
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
 }
 a:hover {
   text-decoration: underline;
@@ -42,36 +43,31 @@ a:focus {
 p {
   line-height: 1.5;
 }
+.wrapper {
+  width:100%;
+}
 .nav-bar-container {
-  background: #4B6A78;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 60px;
+  max-width: 1000px;
+  margin: auto;
+  height: 30px;
 }
 .nav-bar {
-  max-width: 1000px;
-  min-width: 480px;
-  padding-top: 16px;
-  padding-left: 30px;
-  margin: 0 auto;
-  position: relative;
+  padding-top: 4px;
+  /* padding-bottom: 4px; */
 }
 .nav-bar a{
-  font-size: 24px;
-  color: #f8f8f8;
+  font-size: 16px;
+  color: #10171a;
   margin: 16px;
 }
-.wrapper {
-  max-width: 1000px;
-  min-width: 480px;
-  position: relative;
-  top: 30px;
-  margin: 0 auto;
-  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+.container{
+  /* -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); */
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+  padding: 0;
 }
 .sidebar-wrapper {
   position: absolute;
@@ -133,7 +129,7 @@ p {
 .main-wrapper {
   background: #fff;
   padding: 60px;
-  padding-left: 360px;
+  padding-left: 330px;
   page-break-before: always;
   min-height: 1600px;
 }
@@ -313,7 +309,7 @@ p {
     background-color:#4f6f7d;
 }
 /* Small devices */
-@media (max-width: 1023px) {
+@media (max-width: 1000px) {
   .sidebar-wrapper {
     position: relative;
     width: inherit;
@@ -322,7 +318,7 @@ p {
   .sidebar-wrapper {
     background: #fff;
   }
-  .wrapper {
+  .container {
     position: relative;
     top: 0px;
   }
