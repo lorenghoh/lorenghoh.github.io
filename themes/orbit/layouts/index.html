@@ -6,8 +6,6 @@
 
 <body>
     <div class="wrapper">
-        <!-- {{ partial "navigation.html" . }} -->
-
         <div class="container">
             {{ partial "sidebar.html" . }}
             
@@ -36,8 +34,10 @@
     </div>
 
 	{{ partial "footer.html" . }}
-
     {{ partial "scripts.html" . }}
-    <div class="scroller"><a href="#" id="to_top" style="display: none"><span></span></a></div>
+    
+    <div class="scroller">
+        <a href="#" id="to_top" style="display: none"></a>
+    </div>
 </body>
 </html>
