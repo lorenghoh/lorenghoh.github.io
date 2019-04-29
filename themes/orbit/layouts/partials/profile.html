@@ -1,5 +1,9 @@
             <div class="profile-container">
-                <a href="#home"><img class="profile img-circle" src="{{ .Site.BaseURL }}assets/images/{{ .Site.Params.profile.avatar }}" alt="" /></a>
-                <h1 class="name"><a href="#home">{{ .Site.Params.profile.name }}</a></h1>
+                <a href="{{ .Site.BaseURL }}">
+                    <img class="profile img-circle" src="{{ .Site.BaseURL }}assets/images/{{ .Site.Params.profile.avatar }}" alt="" />
+                </a>
+                <h1 class="name">
+                    <a href="{{ .Site.BaseURL }}">{{ .Site.Params.profile.name }}</a>
+                </h1>
                 <h3 class="tagline">{{ .Site.Params.profile.tagline }}</h3>
             </div><!--//profile-container-->
