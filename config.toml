@@ -154,6 +154,11 @@ title = "ATLAS - 3D Trajectory Clustering Algorithm"
 url = "https://github.com/lorenghoh/atlas"
 description = "A cloud-tracking algorithm based on trajectory clustering, data analysis and machine learning (in development)."
 
+[[params.projects.list]]
+title = "NLP-based Plagiarism Checker"
+url = "https://github.com/lorenghoh/eosc_340_nlp"
+description = "A simple, customizable NLP project using TF-IDF to check for plagiarism."
+
 # Publications section
 [params.publications]
 enable = true
@@ -178,50 +183,53 @@ publisher = "McGill University"
 title = "On the Relationship Between Individual Cloud Entrainment Probability Density Functions and the Mean Field Behaviour"
 dates = "2018"
 journal = "In Preparation"
-#publisher = "J. Atmospheric Sci."
+publisher = "J. Atmospheric Sci."
 
 [[params.publications.list]]
 title = "Entrainment as a Measure of Dilution"
 dates = "2018"
 journal = "In Preparation"
-#publisher = "J. Atmospheric Sci."
+publisher = "J. Atmospheric Sci."
 
 [[params.publications.list]]
 title = "Quantifying the Oscillatory Evolution of Simulated Boundary-Layer  Cloud Fields Using Gaussian Processes"
 dates = "2019"
 journal = "In Preparation"
-#publisher = "J. Atmospheric Sci."
+publisher = "J. Atmospheric Sci."
 
 # Talks section
 [params.talks]
 enable = true
 icon = "fa-quote-left"
 title = "Talks"
-intro = "Click the title for more information."
 
 [[params.talks.list]]
 title = "Direct Entrainment and Detrainment Rate Distributions of Individual Clouds in Deep Marine Tropical Convection"
 url = ""
 date = "2015"
 location = "49th CMOS Congress"
+type = "Conference"
 
 [[params.talks.list]]
 title = "Resolved Entrainment and Dilution Calculations for Individually Tracked Boundary Layer Clouds"
 url = "https://ams.confex.com/ams/32AgF22BLT3BG/webprogram/Paper295982.html"
 date = "2016"
 location = "23rd Symposium on Boundary Layers and Turbulence"
+type = "Conference"
 
 [[params.talks.list]]
-title = "Quantifying the Oscillatory Evolution of Simulated Boundary-Layer  Cloud Fields Using Gaussian Processes"
+title = "Quantifying the Oscillatory Evolution of Simulated Boundary-Layer Cloud Fields Using Gaussian Processes"
 url = "https://ams.confex.com/ams/15CLOUD15ATRAD/webprogram/Paper347741.html"
 date = "2018"
 location = "15th Conference on Cloud Physics"
+type = "Conference"
 
 [[params.talks.list]]
 title = "The Role of Moist Shells in Determining the Dilution of Cumulus Clouds"
 url = "https://ams.confex.com/ams/15CLOUD15ATRAD/webprogram/Paper347701.html"
 date = "2018"
 location = "15th Conference on Cloud Physics"
+type = "Conference"
 
 # Skills section
 [params.skills]

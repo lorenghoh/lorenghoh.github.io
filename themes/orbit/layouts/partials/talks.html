@@ -1,13 +1,19 @@
-            <section class="section talks-section">
-                <h2 class="section-title"><i class="fa {{ .Site.Params.talks.icon }}"></i>{{ i18n "talks" }}</h2>
-				{{ range .Site.Params.talks.list }}
-                <div class="item">
-                    <div class="upper-row">
-                        <div class="talk-title">
-                            <a href="{{ .url }}">{{ .title }}</a></div>
-                    </div><!--//upper-row-->
-                    <span class="time">{{ with .date }}{{ . | markdownify }}{{ end }}</span>
-                    <span class="talk-location">{{ .location }}</span>
-                </div><!--//item-->
-				{{ end }}
-            </section><!--//section-->
+<section class="section talks-section">
+    <h2 class="section-title"><i class="fa {{ .Site.Params.talks.icon }}"></i>{{ i18n "talks" }}</h2>
+
+    {{ range .Site.Params.talks.list }}
+    <div class="item">
+        <div class="meta">
+            <div class="li-time">
+                {{ with .date }}{{ . | markdownify }}{{ end }}
+            </div>
+            <div class="li-title">
+                <a href="{{ .url }}">{{ .title }}</a></div>
+        </div><!--//meta-->
+        <div class="li-details">
+            <span class="talk-type">{{ .type }}</span>
+            <span class="talk-location">{{ .location }}</span>
+        </div>
+    </div><!--//item-->
+    {{ end }}
+</section><!--//section-->
