@@ -95,18 +95,18 @@ icon = "fa-graduation-cap"
 title = "Education"
 
 [[params.education.list]]
-degree = "Combined Honours in Computer Science and Physics"
 college = "University of British Columbia"
+degree = "Combined Honours in Computer Science and Physics"
 dates = "2008-2012"
 
 [[params.education.list]]
-degree = "MSc in Atmospheric Sciences"
 college = "McGill University"
+degree = "MSc in Atmospheric Sciences"
 dates = "2012 - 2014"
 
 [[params.education.list]]
-degree = "PhD in Atmospheric Sciences"
 college = "University of British Columbia"
+degree = "PhD in Atmospheric Sciences"
 dates = "2014 - now"
 
 # Projects section
@@ -114,32 +114,37 @@ dates = "2014 - now"
 enable = true
 icon = "fa-wrench"
 title = "Projects"
-intro = "**Click the title for more details.** The following is a list of open-source projects (and only the open-source projects), not in any particular order."
+intro = "Some of my public, open-source projects. Mostly written in Python."
 
 [[params.projects.list]]
 title = "Fractal Analysis for Cumulus Clouds"
 url = "https://github.com/lorenghoh/fractal_clouds"
 description = "Analysis of fractal properties observed in individual boundary-layer cumulus clouds, modelled by a high-resolution large-eddy simulation."
+icon = "fa-github-square"
 
 [[params.projects.list]]
 title = "Gaussian Process Regression for Periodicity Detection"
 url = "https://github.com/lorenghoh/gaussian_processes_ams_2018"
 description = "Using GP regression methods to identify and analyze oscillatory motions in the cloud size distribution measured from a simulated cloud field using a high-resolution large-eddy simulation."
+icon = "fa-github-square"
 
 [[params.projects.list]]
 title = "Statistical Distribution of Modelled Cumulus Cloud Clusters"
 url = "https://github.com/lorenghoh/cloud_clusters"
 description = "A statistically more robust algorithm to estimate the cloud size distribution of a modelled cloud field."
+icon = "fa-github-square"
 
 [[params.projects.list]]
 title = "ATLAS - 3D Trajectory Clustering Algorithm"
 url = "https://github.com/lorenghoh/atlas"
 description = "A cloud-tracking algorithm based on trajectory clustering, data analysis and machine learning (in development)."
+icon = "fa-github-square"
 
 [[params.projects.list]]
 title = "NLP-based Plagiarism Checker"
 url = "https://github.com/lorenghoh/eosc_340_nlp"
 description = "A simple, customizable NLP project using TF-IDF to check for plagiarism."
+icon = "fa-github-square"
 
 # Publications section
 [params.publications]

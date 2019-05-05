@@ -12,7 +12,16 @@
         <hr>
         <div class="item">
             <span class="project-title">
-                <a href="{{ .url }}">{{ .title }}</a>
+                <span class="title">
+                    <a href="{{ .url }}">
+                        {{ .title }}
+                    </a>
+                </span>
+                <span class="repos-url">
+                    <a href="{{ .url }}">
+                        <i class="fa {{ .icon }}"></i>
+                    </a>
+                </span>
             </span>
             <div class="project-desc">
                 {{ with .description }}{{ . | markdownify }}{{ end }}

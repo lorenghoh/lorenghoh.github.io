@@ -160,7 +160,7 @@ p {
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
 }
-.main-wrapper .project-title a {
+.main-wrapper .project-title .title {
   color: #3F4650;
   font-size: 18px;
   font-weight: 700;
@@ -172,16 +172,22 @@ p {
     -moz-hyphens: auto;
 }
 .main-wrapper .project-title {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 400;
-  margin-top: 0;
-  margin-bottom: 5px;
+}
+.main-wrapper .projects-section .repos-url i {
+  font-size: 24px;
+  /* color: #ffffff;
+  background-color: #75b0d3d8;
+  border-radius: 6px; */
 }
 .main-wrapper .projects-section .intro {
   margin-bottom: 30px;
 }
+.main-wrapper .projects-section .project-desc {
+  margin-top: 6px;
+}
 .main-wrapper .projects-section .item {
-  margin-bottom: 15px;
   text-align: justify;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
@@ -208,7 +214,7 @@ p {
   font-weight: 700;
   height: 32px;
 }
-.main-wrapper .li-details {
+.main-wrapper .li-detail {
   margin-bottom: 10px;
   padding-left: 60px;
 }
