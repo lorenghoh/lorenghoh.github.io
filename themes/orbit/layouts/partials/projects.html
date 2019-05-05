@@ -21,7 +21,7 @@
                     {{ $icons := .icons }}
                     {{ range $key, $url := .links }}
                         <a href="{{ $url }}">
-                            <i class="fa {{ index ($icons) $key }}"></i>
+                            <i class="{{ index ($icons) $key }}"></i>
                         </a>
                     {{ end }}
                 </span>

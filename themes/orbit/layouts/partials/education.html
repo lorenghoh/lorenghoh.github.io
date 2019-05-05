@@ -3,4 +3,18 @@
         <i class="fa {{ .Site.Params.education.icon }}"></i>
         {{ i18n "education" }}
     </h2>
+
+    {{ range .Site.Params.education.list }}
+        <div class="item">
+            <div class="dates">
+                {{ .dates }}
+            </div>
+            <div class="ed_title">
+                {{ .college }}
+            </div>
+            <div class="ed_detail">
+                <span class="degree">{{ .degree }}</span>
+            </div>
+        </div>
+    {{ end }}
 </div>

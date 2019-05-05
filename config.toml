@@ -34,25 +34,25 @@ enable = true
 
 [[params.contact.list]]
 class = "email"
-icon = "fa-envelope"
+icon = "fa fa-envelope"
 url = "mailto: loh@eoas.ubc.ca"
 title = "loh@eoas.ubc.ca"
 
 [[params.contact.list]]
 class = "github"
-icon = "fa-github"
+icon = "fab fa-github"
 url = "//github.com/lorenghoh"
 title = "github.com/lorenghoh"
 
 [[params.contact.list]]
 class = "website"
-icon = "fa-globe"
+icon = "fa fa-globe"
 url = "//lorenghoh.github.io"
 title = "lorenghoh.github.io"
 
 [[params.contact.list]]
 class = "linkedin"
-icon = "fa-linkedin-square"
+icon = "fab fa-linkedin"
 url = "//linkedin.com/in/lorenghoh"
 title = "linkedin.com/in/lorenghoh"
 
@@ -120,31 +120,31 @@ intro = "Some of my public, open-source projects. Mostly written in Python."
 title = "Fractal Analysis for Cumulus Clouds"
 links = ["https://github.com/lorenghoh/fractal_clouds"]
 description = "Analysis of fractal properties observed in individual boundary-layer cumulus clouds, modelled by a high-resolution large-eddy simulation."
-icons = ["fa-github-square"]
+icons = ["fab fa-github-square"]
 
 [[params.projects.list]]
 title = "Gaussian Process Regression for Periodicity Detection"
 links = ["https://github.com/lorenghoh/gaussian_processes_ams_2018", "https://github.com/lorenghoh/gaussian_processes_ams_2018/blob/master/notebooks/gaussian_regression.html"]
 description = "Using GP regression methods to identify and analyze oscillatory motions in the cloud size distribution measured from a simulated cloud field using a high-resolution large-eddy simulation."
-icons = ["fa-github-square", "fa-bars"]
+icons = ["fab fa-github-square", "fas fa-bars"]
 
 [[params.projects.list]]
 title = "Statistical Distribution of Modelled Cumulus Cloud Clusters"
 links = ["https://github.com/lorenghoh/cloud_clusters"]
 description = "A statistically more robust algorithm to estimate the cloud size distribution of a modelled cloud field."
-icons = ["fa-github-square"]
+icons = ["fab fa-github-square"]
 
 [[params.projects.list]]
 title = "ATLAS - 3D Trajectory Clustering Algorithm"
 links = ["https://github.com/lorenghoh/atlas"]
 description = "A cloud-tracking algorithm based on trajectory clustering, data analysis and machine learning (in development)."
-icons = ["fa-github-square"]
+icons = ["fab fa-github-square"]
 
 [[params.projects.list]]
 title = "NLP-based Plagiarism Checker"
 links = ["https://github.com/lorenghoh/eosc_340_nlp"]
 description = "A simple, customizable NLP project using TF-IDF to check for plagiarism."
-icons = ["fa-github-square"]
+icons = ["fab fa-github-square"]
 
 # Publications section
 [params.publications]
