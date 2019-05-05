@@ -84,7 +84,9 @@ p {
   margin-top: -60px;
   text-align: center;
 }
-.sidebar-wrapper .contact-list .fa {
+.sidebar-wrapper .contact-list .fa, 
+.sidebar-wrapper .contact-list .fab, 
+.sidebar-wrapper .contact-list .fas {
   width: 48px;
   height: 48px;
   display: inline-block;
@@ -178,7 +180,8 @@ p {
 .main-wrapper .projects-section .repos-links {
   float: right;
 }
-.main-wrapper .projects-section .repos-links a{
+.main-wrapper .projects-section .repos-links .fa, .fab, .fas {
+  padding: 0;
   font-size: 24px;
 }
 .main-wrapper .projects-section .intro {
