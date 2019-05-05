@@ -175,11 +175,11 @@ p {
   font-size: 24px;
   font-weight: 400;
 }
-.main-wrapper .projects-section .repos-url i {
+.main-wrapper .projects-section .repos-links {
+  float: right;
+}
+.main-wrapper .projects-section .repos-links a{
   font-size: 24px;
-  /* color: #ffffff;
-  background-color: #75b0d3d8;
-  border-radius: 6px; */
 }
 .main-wrapper .projects-section .intro {
   margin-bottom: 30px;
