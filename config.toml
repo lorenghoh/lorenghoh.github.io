@@ -97,16 +97,16 @@ title = "Education"
 [[params.education.list]]
 college = "University of British Columbia"
 degree = "Combined Honours in Computer Science and Physics"
-dates = "2008-2012"
+dates = "2008 - 2012"
 
 [[params.education.list]]
 college = "McGill University"
-degree = "MSc in Atmospheric Sciences"
+degree = "M.Sc. in Atmospheric Sciences"
 dates = "2012 - 2014"
 
 [[params.education.list]]
 college = "University of British Columbia"
-degree = "PhD in Atmospheric Sciences"
+degree = "Ph.D. in Atmospheric Sciences"
 dates = "2014 - now"
 
 # Projects section

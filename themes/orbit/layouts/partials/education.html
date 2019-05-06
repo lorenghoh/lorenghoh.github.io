@@ -6,15 +6,11 @@
 
     {{ range .Site.Params.education.list }}
         <div class="item">
-            <div class="dates">
-                {{ .dates }}
+            <div class="top-row">
+                <span class="dates">{{ .dates }}</span>
+                <span class="title">{{ .college }}</span>
             </div>
-            <div class="ed_title">
-                {{ .college }}
-            </div>
-            <div class="ed_detail">
-                <span class="degree">{{ .degree }}</span>
-            </div>
+            <div class="degree">{{ .degree }}</div>
         </div>
     {{ end }}
 </div>
