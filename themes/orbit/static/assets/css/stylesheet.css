@@ -166,11 +166,6 @@ p {
   font-weight: 700;
   margin: 0;
 }
-.main-wrapper .projects-section .project-tagline {
-  text-align: justify;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-}
 .main-wrapper .project-title {
   font-size: 24px;
   font-weight: 400;
@@ -188,7 +183,21 @@ p {
   margin-bottom: 30px;
 }
 .main-wrapper .projects-section .project-desc {
+  text-align: justify;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
   margin-top: 6px;
+}
+.main-wrapper .projects-section .tags{
+  margin-top: 8px;
+}
+.main-wrapper .projects-section .tag{
+  background-color: #75b0d3d8;
+  border-radius: 12px;
+  padding: 0 8px;
+  margin: 0 2px;
+  color: #3F4650;
+  font-weight: 700;
 }
 .main-wrapper .projects-section .item {
   text-align: justify;
@@ -222,14 +231,15 @@ p {
   height: 32px;
 }
 .main-wrapper .li-detail {
-  margin-bottom: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   padding-left: 60px;
 }
 .main-wrapper .journal {
   background-color: #75b0d3d8;
-  border-radius: 15px;
-  padding-left: 8px;
-  padding-right: 8px;
+  border-radius: 12px;
+  padding: 0 8px;
+  margin: 0 2px;
   color: #3F4650;
   font-weight: 700;
 }
@@ -238,9 +248,9 @@ p {
 }
 .main-wrapper .talks-section .talk-type {
   background-color: #75b0d3d8;
-  border-radius: 15px;
-  padding-left: 8px;
-  padding-right: 8px;
+  border-radius: 12px;
+  padding: 0 8px;
+  margin: 0 2px;
   color: #3F4650;
   font-weight: 700;
 }

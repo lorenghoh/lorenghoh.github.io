@@ -121,13 +121,14 @@ title = "Fractal Analysis for Cumulus Clouds"
 links = ["//github.com/lorenghoh/fractal_clouds", "//cdn.rawgit.com/lorenghoh/fractal_clouds/13e63bb7/notebook/fractal_clouds.html"]
 description = "Analysis of fractal properties observed in individual boundary-layer cumulus clouds, modelled by a high-resolution large-eddy simulation."
 icons = ["fab fa-github-square", "fas fa-bars"]
-tags = [""]
+tags = ["Atmospheric Science", "Fractal Analysis", "Python"]
 
 [[params.projects.list]]
 title = "Gaussian Process Regression for Periodicity Detection"
 links = ["//github.com/lorenghoh/gaussian_processes_ams_2018", "//github.com/lorenghoh/gaussian_processes_ams_2018/blob/master/notebooks/gaussian_regression.html"]
 description = "Using GP regression methods to identify and analyze oscillatory motions in the cloud size distribution measured from a simulated cloud field using a high-resolution large-eddy simulation."
 icons = ["fab fa-github-square", "fas fa-bars"]
+tags = ["Atmospheric Science", "Machine Learning", "Python"]
 
 [[params.projects.list]]
 title = "Statistical Distribution of Modelled Cumulus Cloud Clusters"

@@ -29,6 +29,11 @@
             <div class="project-desc">
                 {{ with .description }}{{ . | markdownify }}{{ end }}
             </div>
+            <div class="tags">
+                {{ range .tags }}
+                <span class="tag">{{ . }}</span>
+                {{ end }}
+            </div>
         </div><!--//item-->
     {{ end }}
 
