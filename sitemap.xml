@@ -3,48 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://lorenghoh.github.io/</loc>
+    <loc>//lorenghoh.github.io/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lorenghoh.github.io/summary/</loc>
+    <loc>//lorenghoh.github.io/summary/</loc>
   </url>
   
   <url>
-    <loc>https://lorenghoh.github.io/categories/</loc>
+    <loc>//lorenghoh.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lorenghoh.github.io/papers/momentum_budget/</loc>
+    <loc>//lorenghoh.github.io/papers/momentum_budget/</loc>
   </url>
   
   <url>
-    <loc>https://lorenghoh.github.io/papers/kain-fritsch/</loc>
+    <loc>//lorenghoh.github.io/papers/kain-fritsch/</loc>
   </url>
   
   <url>
-    <loc>https://lorenghoh.github.io/papers/</loc>
+    <loc>//lorenghoh.github.io/papers/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lorenghoh.github.io/talks/ccp18_gp/</loc>
+    <loc>//lorenghoh.github.io/talks/ccp18_gp/</loc>
   </url>
   
   <url>
-    <loc>https://lorenghoh.github.io/tags/</loc>
+    <loc>//lorenghoh.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lorenghoh.github.io/talks/</loc>
+    <loc>//lorenghoh.github.io/talks/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lorenghoh.github.io/talks/ccp18_dilution/</loc>
+    <loc>//lorenghoh.github.io/talks/ccp18_dilution/</loc>
   </url>
   
 </urlset>
