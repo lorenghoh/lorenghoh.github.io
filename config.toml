@@ -135,6 +135,7 @@ title = "Statistical Distribution of Modelled Cumulus Cloud Clusters"
 links = ["//github.com/lorenghoh/cloud_clusters"]
 description = "A statistically more robust algorithm to estimate the cloud size distribution of a modelled cloud field."
 icons = ["fab fa-github-square"]
+tags = ["Atmospheric Science", "Machine Learning", "Python"]
 
 [[params.projects.list]]
 title = "ATLAS - 3D Trajectory Clustering Algorithm"
@@ -147,6 +148,7 @@ title = "NLP-based Plagiarism Checker"
 links = ["//github.com/lorenghoh/eosc_340_nlp"]
 description = "A simple, customizable NLP project using TF-IDF to check for plagiarism."
 icons = ["fab fa-github-square"]
+tags = ["Machine Learning", "Natural Language Processing", "Python"]
 
 # Publications section
 [params.publications]
