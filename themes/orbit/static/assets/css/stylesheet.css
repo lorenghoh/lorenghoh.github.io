@@ -211,6 +211,10 @@ p {
 .main-wrapper .li-title a {
   color: #3F4650;
 }
+.main-wrapper .li-title a:hover {
+  text-decoration: none;
+  color: #4f6f7d;
+}
 .main-wrapper .li-time {
   position: relative;
   color: #4f6f7d;

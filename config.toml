@@ -1,7 +1,7 @@
 # Page settings
 publishDir = "dist"
 
-baseurl = "https://lorenghoh.github.io/"
+baseurl = "//lorenghoh.github.io/"
 languageCode = "en-us"
 theme = "orbit"
 #googleAnalytics = "UA-XXXXXXX-Y"
@@ -46,8 +46,8 @@ title = "github.com/lorenghoh"
 
 [[params.contact.list]]
 class = "website"
-icon = "fa fa-globe"
-url = "//lorenghoh.github.io"
+icon = "fa fa-university"
+url = "//www.eoas.ubc.ca/people/gunholorenoh"
 title = "lorenghoh.github.io"
 
 [[params.contact.list]]
@@ -85,7 +85,7 @@ title = "linkedin.com/in/lorenghoh"
 # Summary section
 [params.summary]
 enable = true
-icon = "fa-user"
+icon = "fa-user-graduate"
 title = "Profile"
 
 # Education section
@@ -118,31 +118,32 @@ intro = "Some of my public, open-source projects. Mostly written in Python."
 
 [[params.projects.list]]
 title = "Fractal Analysis for Cumulus Clouds"
-links = ["https://github.com/lorenghoh/fractal_clouds", "https://cdn.rawgit.com/lorenghoh/fractal_clouds/13e63bb7/notebook/fractal_clouds.html"]
+links = ["//github.com/lorenghoh/fractal_clouds", "//cdn.rawgit.com/lorenghoh/fractal_clouds/13e63bb7/notebook/fractal_clouds.html"]
 description = "Analysis of fractal properties observed in individual boundary-layer cumulus clouds, modelled by a high-resolution large-eddy simulation."
 icons = ["fab fa-github-square", "fas fa-bars"]
+tags = [""]
 
 [[params.projects.list]]
 title = "Gaussian Process Regression for Periodicity Detection"
-links = ["https://github.com/lorenghoh/gaussian_processes_ams_2018", "https://github.com/lorenghoh/gaussian_processes_ams_2018/blob/master/notebooks/gaussian_regression.html"]
+links = ["//github.com/lorenghoh/gaussian_processes_ams_2018", "//github.com/lorenghoh/gaussian_processes_ams_2018/blob/master/notebooks/gaussian_regression.html"]
 description = "Using GP regression methods to identify and analyze oscillatory motions in the cloud size distribution measured from a simulated cloud field using a high-resolution large-eddy simulation."
 icons = ["fab fa-github-square", "fas fa-bars"]
 
 [[params.projects.list]]
 title = "Statistical Distribution of Modelled Cumulus Cloud Clusters"
-links = ["https://github.com/lorenghoh/cloud_clusters"]
+links = ["//github.com/lorenghoh/cloud_clusters"]
 description = "A statistically more robust algorithm to estimate the cloud size distribution of a modelled cloud field."
 icons = ["fab fa-github-square"]
 
 [[params.projects.list]]
 title = "ATLAS - 3D Trajectory Clustering Algorithm"
-links = ["https://github.com/lorenghoh/atlas"]
+links = ["//github.com/lorenghoh/atlas"]
 description = "A cloud-tracking algorithm based on trajectory clustering, data analysis and machine learning (in development)."
 icons = ["fab fa-github-square"]
 
 [[params.projects.list]]
 title = "NLP-based Plagiarism Checker"
-links = ["https://github.com/lorenghoh/eosc_340_nlp"]
+links = ["//github.com/lorenghoh/eosc_340_nlp"]
 description = "A simple, customizable NLP project using TF-IDF to check for plagiarism."
 icons = ["fab fa-github-square"]
 
@@ -199,21 +200,21 @@ type = "Conference"
 
 [[params.talks.list]]
 title = "Resolved Entrainment and Dilution Calculations for Individually Tracked Boundary Layer Clouds"
-url = "https://ams.confex.com/ams/32AgF22BLT3BG/webprogram/Paper295982.html"
+url = "//ams.confex.com/ams/32AgF22BLT3BG/webprogram/Paper295982.html"
 date = "2016"
 location = "23rd Symposium on Boundary Layers and Turbulence"
 type = "Conference"
 
 [[params.talks.list]]
 title = "Quantifying the Oscillatory Evolution of Simulated Boundary-Layer Cloud Fields Using Gaussian Processes"
-url = "https://ams.confex.com/ams/15CLOUD15ATRAD/webprogram/Paper347741.html"
+url = "//ams.confex.com/ams/15CLOUD15ATRAD/webprogram/Paper347741.html"
 date = "2018"
 location = "15th Conference on Cloud Physics"
 type = "Conference"
 
 [[params.talks.list]]
 title = "The Role of Moist Shells in Determining the Dilution of Cumulus Clouds"
-url = "https://ams.confex.com/ams/15CLOUD15ATRAD/webprogram/Paper347701.html"
+url = "//ams.confex.com/ams/15CLOUD15ATRAD/webprogram/Paper347701.html"
 date = "2018"
 location = "15th Conference on Cloud Physics"
 type = "Conference"
@@ -221,7 +222,7 @@ type = "Conference"
 # Teaching section
 [params.teaching]
 enable = true
-icon = "fa-university"
+icon = "fa-chalkboard-teacher"
 title = "Teaching"
 
 # Skills section
