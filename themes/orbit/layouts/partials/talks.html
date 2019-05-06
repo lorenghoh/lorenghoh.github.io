@@ -8,12 +8,13 @@
                 {{ with .date }}{{ . | markdownify }}{{ end }}
             </div>
             <div class="li-title">
-                <a href="{{ .url }}">{{ .title }}</a></div>
+                <a href="{{ .url }}">{{ .title }}</a>
+            </div>
+            <div class="li-detail">
+                <span class="talk-type">{{ .type }}</span>
+                <span class="talk-location">{{ .location }}</span>
+            </div>
         </div><!--//meta-->
-        <div class="li-details">
-            <span class="talk-type">{{ .type }}</span>
-            <span class="talk-location">{{ .location }}</span>
-        </div>
     </div><!--//item-->
     {{ end }}
 </section><!--//section-->
