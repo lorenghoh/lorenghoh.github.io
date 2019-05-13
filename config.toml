@@ -135,7 +135,7 @@ title = "Statistical Distribution of Modelled Cumulus Cloud Clusters"
 links = ["//github.com/lorenghoh/cloud_clusters"]
 description = "A statistically more robust algorithm to estimate the cloud size distribution of a modelled cloud field."
 icons = ["fab fa-github-square"]
-tags = ["Atmospheric Science", "Machine Learning", "Python"]
+tags = ["Atmospheric Science", "Numerical Analysis", "Python"]
 
 [[params.projects.list]]
 title = "ATLAS - 3D Trajectory Clustering Algorithm"

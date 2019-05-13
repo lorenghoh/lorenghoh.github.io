@@ -122,7 +122,7 @@ p {
   padding-left: 315px;
   margin: auto;
 }
-.main-wrapper .section-title{
+.main-wrapper .section-title {
   color: #2e4049;
   padding-bottom: 12px;
 }
@@ -150,7 +150,7 @@ p {
   font-size: 24px;
   font-weight: 700;
   height: 32px;
-  width: 132px;
+  width: 150px;
 }
 .main-wrapper .education-section .item .title {
   color: #2e4049;
@@ -195,7 +195,7 @@ p {
   background-color: #75b0d3d8;
   border-radius: 12px;
   padding: 0 8px;
-  margin: 0 2px;
+  margin-right: 2px;
   color: #3F4650;
   font-weight: 700;
 }
