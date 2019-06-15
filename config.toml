@@ -56,29 +56,6 @@ icon = "fab fa-linkedin"
 url = "//linkedin.com/in/lorenghoh"
 title = "linkedin.com/in/lorenghoh"
 
-# Interests section
-# [params.interests]
-# enable = true
-# title = "Interests"
-
-# [[params.interests.list]]
-# interest = "Cloud Physics"
-
-# [[params.interests.list]]
-# interest = "Large-eddy Simulation"
-
-# [[params.interests.list]]
-# interest = "Machine Learning"
-
-# [[params.interests.list]]
-# interest = "Big Data Analysis"
-
-# [[params.interests.list]]
-# interest = "Optimization"
-
-# [[params.interests.list]]
-# interest = "Logic"
-
 # Main matter
 # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
 
