@@ -192,11 +192,11 @@ p {
   margin-top: 8px;
 }
 .main-wrapper .projects-section .tag{
-  background-color: #75b0d3d8;
+  background-color: #4f6f7d;
   border-radius: 12px;
   padding: 0 8px;
   margin-right: 2px;
-  color: #3F4650;
+  color: #FFFFFF;
   font-weight: 700;
 }
 .main-wrapper .projects-section .item {
@@ -236,22 +236,22 @@ p {
   padding-left: 60px;
 }
 .main-wrapper .journal {
-  background-color: #75b0d3d8;
+  background-color: #4f6f7d;
   border-radius: 12px;
   padding: 0 8px;
   margin: 0 2px;
-  color: #3F4650;
+  color: #ffffff;
   font-weight: 700;
 }
 .main-wrapper .publisher {
   font-style: italic;
 }
 .main-wrapper .talks-section .talk-type {
-  background-color: #75b0d3d8;
+  background-color: #4f6f7d;
   border-radius: 12px;
   padding: 0 8px;
   margin: 0 2px;
-  color: #3F4650;
+  color: #ffffff;
   font-weight: 700;
 }
 .skillset .item {
