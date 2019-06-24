@@ -332,7 +332,7 @@ p {
     top: 0px;
   }
   .main-wrapper {
-    padding: 30px;
+    padding: 0px;
   }
 }
 /* Small devices */
@@ -398,8 +398,5 @@ p {
   .container {
     position: relative;
     top: 0px;
-  }
-  .main-wrapper {
-    padding: 0px;
   }
 }
