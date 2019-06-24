@@ -53,6 +53,7 @@ p {
   max-width: 1000px;
   margin: auto;
   padding: 0;
+  box-sizing: border-box;
 }
 .sidebar-wrapper {
   position: absolute;
@@ -136,6 +137,9 @@ p {
 .main-wrapper .section {
   margin-bottom: 60px;
   page-break-inside: avoid;
+}
+.main-wrapper .education-section .item {
+  padding-bottom: 12px;
 }
 .main-wrapper .education-section .item .dates {
   position: relative;
