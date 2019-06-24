@@ -51,7 +51,6 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); */
   position: relative;
   max-width: 1000px;
-  min-width: 480px;
   margin: auto;
   padding: 0;
 }
@@ -138,11 +137,6 @@ p {
   margin-bottom: 60px;
   page-break-inside: avoid;
 }
-/* .main-wrapper .summary{
-  text-align: justify;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-} */
 .main-wrapper .education-section .item .dates {
   position: relative;
   color: #4f6f7d;
@@ -160,17 +154,22 @@ p {
   font-weight: 700;
   min-height: 32px;
 }
+.main-wrapper .project-title {
+  font-size: 24px;
+  font-weight: 400;
+}
 .main-wrapper .project-title .title {
   color: #3F4650;
   font-size: 18px;
   font-weight: 700;
   margin: 0;
 }
-.main-wrapper .project-title {
-  font-size: 24px;
-  font-weight: 400;
+.main-wrapper .projects-section .project-title .title {
+  text-align: justify;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
 }
-.main-wrapper .projects-section .repos-links {
+.main-wrapper .projects-section .project-title .repos-links {
   float: right;
 }
 .main-wrapper .projects-section .repos-links .fa,
@@ -186,10 +185,15 @@ p {
   text-align: justify;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
-  margin-top: 6px;
+  margin-top: 8px;
 }
 .main-wrapper .projects-section .tags{
   margin-top: 8px;
+}
+.main-wrapper .projects-section .projcet-item {
+  text-align: justify;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
 }
 .main-wrapper .projects-section .tag{
   background-color: #4f6f7d;
@@ -199,30 +203,24 @@ p {
   color: #FFFFFF;
   font-weight: 700;
 }
-.main-wrapper .projects-section .item {
-  text-align: justify;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-}
-.main-wrapper .item {
+.main-wrapper .li-item {
   margin-bottom: 15px;
 }
-.main-wrapper .li-title {
+.main-wrapper .li-item .li-title {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 18px;
   font-weight: 700;
   padding-left: 60px;
-  min-height: 32px;
 }
-.main-wrapper .li-title a {
+.main-wrapper .li-item .li-title a {
   color: #3F4650;
 }
-.main-wrapper .li-title a:hover {
+.main-wrapper .li-item .li-title a:hover {
   text-decoration: none;
   color: #4f6f7d;
 }
-.main-wrapper .li-time {
+.main-wrapper .li-item .li-time {
   position: relative;
   color: #4f6f7d;
   float: left;
@@ -230,7 +228,7 @@ p {
   font-weight: 700;
   height: 32px;
 }
-.main-wrapper .li-detail {
+.main-wrapper .li-item .li-detail {
   margin-top: 2px;
   margin-bottom: 2px;
   padding-left: 60px;
@@ -242,9 +240,11 @@ p {
   margin: 0 2px;
   color: #ffffff;
   font-weight: 700;
+  float: left;
 }
 .main-wrapper .publisher {
   font-style: italic;
+  margin-left: 4px;
 }
 .main-wrapper .talks-section .talk-type {
   background-color: #4f6f7d;
@@ -283,8 +283,38 @@ p {
 .footer .fa-heart {
   color: #fb866a;
 }
+/* Large devices */
+@media (min-width: 1000px) {
+  .skillset .level-title {
+    float: left;
+    width: 30%;
+    margin-bottom: 0;
+  }
+  .skillset .level-bar {
+    width: 70%;
+    float: left;
+    position: relative;
+    top: 1px;
+  }
+}
 /* Medium devices */
 @media (max-width: 1000px) {
+  .main-wrapper .education-section .item .top-row {
+    float: left;
+    display: block;
+  }
+  .main-wrapper .education-section .item .dates {
+    font-size: 22px;
+    float: left;
+  }
+  .main-wrapper .education-section .item .title {
+    font-size: 22px;
+    float: left;
+  }
+  .main-wrapper .education-section .item .degree {
+    display: block;
+    clear:both;
+  }
   .sidebar-wrapper {
     position: relative;
     width: inherit;
@@ -301,17 +331,71 @@ p {
     padding: 30px;
   }
 }
-/* Large devices */
-@media (min-width: 1001px) {
-  .skillset .level-title {
-    float: left;
-    width: 30%;
-    margin-bottom: 0;
+/* Small devices */
+@media (max-width: 640px) {
+  .sidebar-wrapper .container-block {
+    padding: 30px 0;
   }
-  .skillset .level-bar {
-    width: 70%;
+  .main-wrapper .education-section .item .top-row {
     float: left;
+    display: block;
+  }
+  .main-wrapper .education-section .item .dates {
+    font-size: 22px;
+    float: left;
+  }
+  .main-wrapper .education-section .item .title {
+    font-size: 22px;
+    float: left;
+    clear: both;
+  }
+  .main-wrapper .education-section .item .degree {
+    display: block;
+    clear: both;
+  }
+  .main-wrapper .projects-section .tag {
+    display: inline-block;
+    clear: both;
+    margin: 4px 0;
+  }
+  .main-wrapper .projects-section .project-title .repos-links {
+    display: none;
+  }
+  .main-wrapper .li-item .li-time {
+    font-size: 24px;
+    clear: both;
+  }
+  .main-wrapper .li-item .li-title {
+    font-size: 22px;
+    padding: 0;
+    clear: both;
+  }
+  .main-wrapper .li-item .li-detail {
+    padding: 0;
+    overflow: hidden;
+  }
+  .main-wrapper .li-item .journal {
+    margin: 4px 0;
+  }
+  .main-wrapper .li-item .publisher{
+    display: block;
+  }
+  .main-wrapper .li-item .talk-type {
+    display: none;
+  }
+  .sidebar-wrapper {
     position: relative;
-    top: 1px;
+    width: inherit;
+    min-height: 0;
+  }
+  .sidebar-wrapper {
+    background: #fff;
+  }
+  .container {
+    position: relative;
+    top: 0px;
+  }
+  .main-wrapper {
+    padding: 0px;
   }
 }

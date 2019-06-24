@@ -2,7 +2,7 @@
     <h2 class="section-title"><i class="fa {{ .Site.Params.talks.icon }}"></i>{{ i18n "talks" }}</h2>
 
     {{ range .Site.Params.talks.list }}
-    <div class="item">
+    <div class="li-item">
         <div class="meta">
             <div class="li-time">
                 {{ with .date }}{{ . | markdownify }}{{ end }}

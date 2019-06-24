@@ -5,15 +5,15 @@
     </h2>
 
     {{ range .Site.Params.publications.list }}
-    <div class="item">
+    <div class="li-item">
         <div class="meta">
             <div class="li-time">{{ .dates }}</div>
                 <div class="li-title">
                     <a href="{{ .url }}">{{ .title }}</a>
                 </div>
             <div class="li-detail">
-                <span class="journal">{{ .journal }}</span>
                 <span class="publisher">{{ .publisher }}</span>
+                <span class="journal">{{ .journal }}</span>
             </div>
         </div><!--//meta-->
     </div><!--//item-->

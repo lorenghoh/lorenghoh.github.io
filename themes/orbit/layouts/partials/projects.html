@@ -10,8 +10,8 @@
 
     {{ range .Site.Params.projects.list }}
         <hr><!--//separator-->
-        <div class="item">
-            <span class="project-title">
+        <div class="project-item">
+            <div class="project-title">
                 <span class="title">
                     <a href="{{ index (.links) 0 }}">
                         {{ .title }}
@@ -25,13 +25,13 @@
                         </a>
                     {{ end }}
                 </span>
-            </span>
+            </div>
             <div class="project-desc">
                 {{ with .description }}{{ . | markdownify }}{{ end }}
             </div>
             <div class="tags">
                 {{ range .tags }}
-                <span class="tag">{{ . }}</span>
+                    <span class="tag">{{ . }}</span>
                 {{ end }}
             </div>
         </div><!--//item-->
