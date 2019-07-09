@@ -53,7 +53,6 @@ p {
   max-width: 1000px;
   margin: auto;
   padding: 0;
-  box-sizing: border-box;
 }
 .sidebar-wrapper {
   position: absolute;
@@ -258,6 +257,24 @@ p {
   color: #ffffff;
   font-weight: 700;
 }
+.teaching-section .class-type {
+  color: #2e4049;
+}
+.teaching-section .class-code {
+  color: #2e4049;
+  display: inline-block;
+}
+.teaching-section .class-title {
+  color: #4f6f7d;
+  display: inline-block;
+  font-size: 22px;
+  margin: 0 8px;
+}
+.teaching-section .class-desc {
+  text-align: justify;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+}
 .skillset .item {
   margin-bottom: 15px;
   overflow: hidden;
@@ -386,6 +403,13 @@ p {
   }
   .main-wrapper .li-item .talk-type {
     display: none;
+  }
+  .teaching-section .class-code {
+    padding-top: 2px;
+  }
+  .teaching-section .class-title {
+    display: block;
+    margin: 4px 0;
   }
   .sidebar-wrapper {
     position: relative;

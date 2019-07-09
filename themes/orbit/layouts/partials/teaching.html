@@ -1,6 +1,33 @@
 <section class="section teaching-section">
     <h2 class="section-title">
         <i class="fa {{ .Site.Params.teaching.icon }}"></i>
-        {{ i18n "teaching" }}
+        {{ i18n "teaching" }} (TA)
     </h2>
+
+    <hr> <!--//separator-->
+
+    <h3 class="class-type"> Computer Science (CPSC) </h3>
+    {{ range .Site.Params.teaching.cpsc }}
+        <h3 class="class-code">{{ .course }}</h3> 
+        <h3 class="class-title">{{ .title }}</h3>
+        <div class="class-desc">{{ .desc }}</div>
+    {{ end }}
+    
+    <hr><!--//separator-->
+
+    <h3 class="class-type"> Earth, Ocean and Atmospheric Sciences (EOSC) </h3>
+    {{ range .Site.Params.teaching.eosc }}
+        <h3 class="class-code">{{ .course }}</h3>
+        <h3 class="class-title">{{ .title }}</h3>
+        <div class="class-desc">{{ .desc }}</div>
+    {{ end }}
+    
+    <hr><!--//separator-->
+
+    <h3 class="class-type"> Master of Data Science (DSCI) </h3>
+    {{ range .Site.Params.teaching.dsci }}
+        <h3 class="class-code">{{ .course }}</h3>
+        <h3 class="class-title">{{ .title }}</h3>
+        <div class="class-desc">{{ .desc }}</div>
+    {{ end }}
 </section>
