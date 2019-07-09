@@ -261,14 +261,14 @@ p {
   color: #2e4049;
 }
 .teaching-section .class-code {
-  color: #2e4049;
+  color: #4f6f7d;
   display: inline-block;
 }
 .teaching-section .class-title {
-  color: #4f6f7d;
+  color: #2e4049;
   display: inline-block;
   font-size: 22px;
-  margin: 0 8px;
+  margin: 0 4px;
 }
 .teaching-section .class-desc {
   text-align: justify;
