@@ -346,10 +346,11 @@ p {
   }
   .container {
     position: relative;
+    width: inherit;
     top: 0px;
   }
   .main-wrapper {
-    padding: 0px;
+    padding: 4px;
   }
 }
 /* Small devices */
