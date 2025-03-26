@@ -38,7 +38,7 @@ I am a computational physicist specializing in numerical and statistical methods
 | --- | ---: |
 | *University of British Columbia* <br> Vancouver, BC, Canada |
 
-More information is {small}`available` [here](01-edu.md).
+More information is available [here](01-edu.md).
 
 # Employment
 
