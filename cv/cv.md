@@ -1,12 +1,11 @@
 ---
 title: Short CV
 subject: Curriculum Vitae
-subtitle: A summarized version of my CV
+subtitle: A non-comprehensive version of my CV
 short_title: How to MyST
+date: 2025-03-27
 license: CC-BY-4.0
 ---
-
-# Summary
 
 I am a computational physicist specializing in numerical and statistical methods, applied to high-resolution large-eddy simulation (LES) models of the atmosphere. I am particularly interested in implementing and optimizing parallel processing of large, multi-dimensional data, as well as machine learning algorithms such as Gaussian Process (GP) and deep neural networks to better represent the complex dynamics seen in the modelled data.
 
@@ -18,7 +17,7 @@ I am a computational physicist specializing in numerical and statistical methods
 
 - Statistical analysis with `Numpy`, `Scipy` and `Scikit-learn`
 
-- Data pre-processing with `Pandas`/`Polars` and `Arrow/Parquet`
+- Data pre-processing with `Pandas/Polars` and `Arrow/Parquet`
 
 - Machine learning experience with `Pytorch`[^f1], `Keras` and `Jax`
 
@@ -38,7 +37,11 @@ I am a computational physicist specializing in numerical and statistical methods
 | --- | ---: |
 | *University of British Columbia* <br> Vancouver, BC, Canada |
 
-More information is available [here](01-edu.md).
+:::{card} Education, extended
+:link: ./01-edu.md
+
+Click here to see more details.
+:::
 
 # Employment
 
@@ -46,10 +49,18 @@ More information is available [here](01-edu.md).
 | --- | ---: |
 | *Korea Polar Research Institute (KOPRI)* <br> Incheon, Korea |
 
-More information is available [here](02-exp.md).
+:::{card} Employment, extended
+:link: ./02-exp.md
+
+Click here to see more details.
+:::
 
 # Publication
 
-See the [full list of publications](04-pub.md).
+:::{card} Full List of Publications
+:link: ./04-pub.md
+
+Click here to see more details.
+:::
 
 [^f1]: See [this Jupyter Book](https://lorenghoh.github.io/size_oscillation/), which is a collection of Jupyter notebooks accompanying [Oh and Austin, 2015](https://doi.org/10.5194/egusphere-2024-352).
