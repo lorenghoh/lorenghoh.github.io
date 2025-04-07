@@ -63,4 +63,4 @@ Click here to see more details.
 Click here to see more details.
 :::
 
-[^f1]: See [this Jupyter Book](https://lorenghoh.github.io/size_oscillation/), which is a collection of Jupyter notebooks accompanying [Oh and Austin, 2015](https://doi.org/10.5194/egusphere-2024-352).
+[^f1]: See [this Jupyter Book](https://lorenghoh.github.io/size-oscillation/), which is a collection of Jupyter notebooks accompanying [Oh and Austin, 2015](https://doi.org/10.5194/egusphere-2024-352).

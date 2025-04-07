@@ -11,7 +11,7 @@ Oh, G., & Austin, P. H. (2024). *Direct Entrainment as a Measure of Dilution*. J
 
 :::{topic} Quantifying the Oscillatory Evolution of Simulated Boundary-Layer Cloud Fields Using Gaussian Process Regression
 
-Oh, G., & Austin, P. H. (2025). *Quantifying the Oscillatory Evolution of Simulated Boundary-Layer Cloud Fields Using Gaussian Process Regression*. Geoscientific Model Development, preprint, `https://doi.org/10.5194/egusphere-2024-352`[^1].
+Oh, G., & Austin, P. H. (2025). *Quantifying the Oscillatory Evolution of Simulated Boundary-Layer Cloud Fields Using Gaussian Process Regression*. Geoscientific Model Development, preprint, `https://doi.org/10.5194/egusphere-2024-352`[^1][^2].
 :::
 
 :::{topic} Observations of Low-altitude Arctic Cloud Properties with Backscattering and Depolarization Cloud Spectrometre
@@ -25,4 +25,6 @@ Oh, G., & Austin, P. H. (2025). *On a Simplified Representation of Mixing for Bo
 :::
 
 
-[^1]: See the accompanying Jupyter notebooks [here](https://lorenghoh.github.io/size_oscillation/).
+[^1]: See the accompanying Jupyter notebooks [here](https://lorenghoh.github.io/size-oscillation/).
+
+[^2]: The paper has been accepted for publication. This page will be updated accordingly once the final version is posted by GMD.
