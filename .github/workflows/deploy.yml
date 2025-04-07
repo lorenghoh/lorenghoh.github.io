@@ -1,14 +1,13 @@
 # This file was created automatically with `myst init --gh-pages` 🪄 💚
+
 # Ensure your GitHub Pages settings for this repository are set to deploy with **GitHub Actions**.
 
 name: MyST GitHub Pages Deploy
 on:
   push:
-    # Runs on pushes targeting the default branch
     branches: [main]
 env:
-  # `BASE_URL` determines the website is served from, including CSS & JS assets
-  # You may need to change this to `BASE_URL: ''`
+  # BASE_URL determines the website is served from, including CSS & JS assets; the main Github Page, linked to the Github account, needs special care and you need to change this to BASE_URL: ''
   BASE_URL: ''
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
@@ -16,8 +15,7 @@ permissions:
   contents: read
   pages: write
   id-token: write
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued. However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: 'pages'
   cancel-in-progress: false
