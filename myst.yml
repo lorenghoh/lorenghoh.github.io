@@ -9,7 +9,7 @@ project:
       orcid: https://orcid.org/0009-0002-2916-0350
       github: lorenghoh
       affiliation: ubc
-  affiliations: 
+  affiliations:
     - id: ubc
       institution: University of British Columbia
       department: Earth, Ocean and Atmospheric Sciences
@@ -23,13 +23,16 @@ project:
     - file: cv/cv.md
     - title: extended CV
       children:
-      - pattern: 'cv/0*.md'
+        - pattern: "cv/0*.md"
+    - title: projects
+      chidren:
+        - pattern: "projects/*"
     - title: blog
       children:
-        - pattern: 'pages/*'
+        - pattern: "pages/*"
     - title: notebooks
       children:
-        - pattern: 'notebooks/*'
+        - pattern: "notebooks/*"
 site:
   template: book-theme
   options:
