@@ -37,7 +37,7 @@ I am a computational physicist specializing in numerical and statistical methods
 | --- | ---: |
 | *University of British Columbia* <br> Vancouver, BC, Canada |
 
-:::{card} Education, extended
+:::{card} Education
 :link: ./01-edu.md
 
 Click here to see more details.
@@ -49,7 +49,11 @@ Click here to see more details.
 | --- | ---: |
 | *Korea Polar Research Institute (KOPRI)* <br> Incheon, Korea |
 
-:::{card} Employment, extended
+| {sc}`Research Associate` | 2024 - Today |
+| --- | ---: |
+| *University of British Columbia* <br> Vancouber, BC, Canada |
+
+:::{card} Employment
 :link: ./02-exp.md
 
 Click here to see more details.
